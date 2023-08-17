@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="description" content="myFirst Personal Website.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .profilehead {
+            background-color: #008CBA;
+            color: white;
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+            margin: 0;
+        }
+        tr:nth-child(odd) {
+            background-color: #f2f2f2
+        }
+
+        th {
+            background-color: #04AA6D;
+            color: white;
+        }
+        nav ul {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            list-style-type: none;
+            background-color: #727070;
+        }
+        nav ul li {
+            float: right;
+        }
+        nav ul li a {
+            display: block;
+            padding: 15px 10px;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            background-color:#ffef33;
+            color:#3eff82;
+        }
+        @media screen and (max-width: 800px) {
+            .body {
+                padding: 0;
+            }
+        }
+    </style>
+</head>
+
+<body class="setcolor">
+    <h1 class="profilehead">My Profile</h1>
+    <nav>
+        <ul>
+            <li><a href="#cont">Contact</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#edu">Education</a></li>
+            <li><a href="#about">About</a></li> 
+        </ul>
+    </nav>
+    <div class="body">
+        <!-- table to modify -->
+        <section class="top-main">
+            <table id="top">
+                <tr>
+                    <th width="40%"><img src="images/photo.jpeg" style="width:140px; height: 180px; border-radius:100%;"
+                            alt="photo"></th>
+                    <th>
+                        <h1>Vamshi Krishna Kulla</h1>
+                        <h3>A <strong>Full stack web developer</strong> and <strong>Python developer</strong>.
+                        </h3>
+                        <p>in <em>Warangal, Telangana</em>.</p>
+                    </th>
+
+                </tr>
+            </table>
+        </section>
+
+        <!--<hr size="3" noshade>-->
+        <hr>
+        <h3 id="about">About Me :</h3>
+
+        <!--list to modify-->
+        <p>➡️CAREER OBJECTIVE : To join a reputed organization and try my best to solve the
+                Real world problems and also to help for the growth of the organaization i'am working in.</p>
+        <p>➡️STRENGTHS : Able to learn new skills every day, maintain friendly communication
+                and able to handle tough situations in an efficient way.</p>
+        <p>➡️LANGUAGES KNOWN : Telugu, Hindi, English.</p>
+        </ul>
+        <hr>
+
+        <section class="middle" id="edu" style="overflow: auto;">
+            <h3>Time-line :</h3>
+
+            <!-- table to modify -->
+            <table>
+                <caption>EDUCATION DETAILS</caption>
+                <thead>
+                    <th width="10%">SNO</th>
+                    <th>QUALIFICATION</th>
+                    <th>INSTITUTION</th>
+                    <th>YEAR OF STUDY</th>
+                    <th>PERCENTAGE</th>
+                </thead>
+                <tr>
+                    <td>1</td>
+                    <td>B.TECH</td>
+                    <td>Chaitanya Institute of Technology and Science</td>
+                    <td>2019-2023</td>
+                    <td>86%</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>INTERMEDIATE<br>M.P.C</td>
+                    <td>S.R junior college</td>
+                    <td>2017-2019</td>
+                    <td>94%</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>SSC</td>
+                    <td>Indian high school</td>
+                    <td>2016-2017</td>
+                    <td>92%</td>
+                </tr>
+
+            </table>
+        </section>
+        <hr>
+        <h3 id="skills">SKILLS :</h3>
+
+        <!-- table to modify -->
+        <table style="overflow: auto;">
+            <caption>Front-End technologies</caption>
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <td>HTML5</td>
+                            <td>⭐⭐⭐⭐⭐</td>
+                        </tr>
+                        <tr>
+                            <td>CSS3</td>
+                            <td>⭐⭐⭐⭐</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table>
+                        <tr>
+                            <td>Javascript</td>
+                            <td>⭐⭐⭐⭐</td>
+                        </tr>
+                        <tr>
+                            <td>Bootstrap5</td>
+                            <td>⭐⭐⭐</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table style="overflow: auto;">
+            <caption>Back-End technologies</caption>
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <td>C</td>
+                            <td>⭐⭐⭐</td>
+                        </tr>
+                        <tr>
+                            <td>Python3</td>
+                            <td>⭐⭐⭐⭐</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table>
+                        <tr>
+                            <td>C++</td>
+                            <td>⭐⭐</td>
+                        </tr>
+                        <tr>
+                            <td>Javascript with node.js</td>
+                            <td>⭐⭐⭐⭐</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table>
+                        <tr>
+                            <td>PHP</td>
+                            <td>⭐⭐⭐</td>
+                        </tr>
+                        <tr>
+                            <td>SQL</td>
+                            <td>⭐⭐⭐⭐</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <hr>
+    <footer id="cont">
+        <a href="works.html">Project works</a>
+        <a href="contact_me.html">Contact Me</a>
+    </footer>
+</body>
+
+</html>

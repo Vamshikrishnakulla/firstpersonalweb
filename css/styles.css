@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    padding: 0 50px;
+    /* background-color: hsla(120, 9%, 96%, 0.6); */
+}
+
+.setcolor {
+    background-color: #fff;
+}
+
+h1, h3, p {
+    color: #66BFBF;
+}
+
+.top-main, .middle {
+    padding: 20px 0;
+}
+
+hr {
+
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 3px;
+    width: 5%;
+
+}
+
+table {
+    text-align: left;
+    width: 100%;
+    border-spacing: 5px;
+
+}
+
+th, td {
+    padding: 10px 0;
+    /* background-color: lightgray; */
+}
+
+caption {
+    padding: 15px 0;
+}
+
+#top {
+    border-spacing: 40px;
+}
+
+#top th {
+    background-color: #fff;
+}
+
+#top th:first-child {
+    text-align: right;
+}
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #666;
+}
+
+footer a:link, a:visited {
+    text-decoration: none;
+    color: white;
+    padding: 0 5px;
+}
+
+footer a:hover {
+    color: powderblue;
+}
+
+/* contact page style  */
+.contact {
+    
+    width: 60%;
+    margin: auto;
+}
+
+.contact form input, textarea {
+
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+/* th:hover {
+     background-color: #D6EEEE;
+ }
+ td:hover {
+     background-color: #D6EEEE;
+ } */

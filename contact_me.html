@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contactUs</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        h1 {
+            background-color: #008CBA;
+            color: white;
+            padding: 15px;
+            font-size: 30px;
+            text-align: center;
+            margin: 0;
+            
+        }
+
+        @media screen and (max-width: 800px) {
+            .body {
+                padding: 0;
+
+            }
+
+            .contact {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>CONTACT ME</h1>
+    <div class="body">
+        
+        <section class="contact">
+
+            <P>EMAIL : Vamshi.kk67@gmail.com,
+                Vamshi_kk11@outlook.com</P>
+            <P>PHONE : +917780309968</P>
+            <P>ADDRESS : 20-10-171, Middle Fort , Fort Warangal,
+                Warangal Urban, Telangana - 506002</P>
+            <hr>
+            <form action="mailto:vamshi.kk67@mail.com" method="POST" enctype="text/plain">
+                <label for="mail">Email :</label>
+                <input id="mail" type="email" name="Email"><br>
+                <label for="title">Subject :</label>
+                <input id="title" type="text" name="title"><br>
+                <label for="text">Message :</label>
+                <textarea name="text" id="text" cols="20" rows="5"></textarea>
+                <br>
+                <input type="submit" style="width: 20%; background-color: aqua;">
+                <br>
+                <!--<input type="submit">-->
+            </form>
+        </section>
+    </div>
+    <footer>
+        <a href="index.html">Profile</a>
+        <a href="works.html">Projects</a>
+    </footer>
+</body>
+
+</html>
